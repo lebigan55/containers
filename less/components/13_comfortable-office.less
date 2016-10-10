@@ -1,0 +1,116 @@
+/*--- comfortable-offise ---*/
+
+.comfortable-offise {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding-bottom: 145px;
+}
+.comfortable-offise-headline {
+    padding-top: 100px;
+    margin-bottom: -100px;
+}
+.comfortable-offise-headline span {
+    display: block;
+    font-size: 28px;
+}
+.comfortable-offise-slider {
+    margin-bottom: 360px;
+}
+.container-close-1 {
+    display: block;
+    img {
+        max-width: 100%;
+        height: auto;
+    }    
+}
+.container-open-1 {
+    display: none;
+    img {
+        max-width: 100%;
+        height: auto;
+    } 
+}
+.comfortable-offise-inner {
+    max-width: 370px;
+    min-height: 290px;   
+    background-color: rgb(96, 117, 151);
+    border-radius: 3px;
+    padding-top: 70px;
+    padding-left: 30px;
+    position: relative;
+}
+.comfortable-offise-inner h4 {
+    font-weight: 700;
+    color: @white;
+}
+.comfortable-offise-inner p {
+    color: @white;
+}
+.ecology-header,
+.economy-header,
+.mobility-header {
+    margin-bottom: 40px;
+}
+.ecology-text,
+.mobility-text {
+    max-width: 230px;
+}
+.economy-text {
+    max-width: 285px;
+}
+.ecology-text span,
+.economy-text span,
+.mobility-text span {
+    display: block;
+}
+.comfortable-foto {
+    width: 320px;
+    max-width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1.251px 7.902px 7px 0px rgba(49, 39, 25, 0.65);
+    border-radius: 3px;
+    overflow: hidden; 
+    position: absolute;
+    bottom: 257px;
+    left: 19px;    
+    img {
+        max-width: 100%;
+        height: auto;  
+    }
+}
+
+/*--- sliders  ---*/
+
+#comfortable-slider .owl-prev {
+    background: url("@{dir}arrow-left-before.jpg")no-repeat top center;
+    background-size: cover;
+    transition: all 0.35s ease;
+}
+#comfortable-slider .owl-next {
+    background: url("@{dir}arrow-right-before.jpg")no-repeat top center;
+    background-size: cover;
+    transition: all 0.35s ease;
+}
+#comfortable-slider .owl-prev:hover {
+    background: url("@{dir}arrow-left-after.jpg")no-repeat top center;
+    background-size: cover;
+}
+#comfortable-slider .owl-next:hover {
+    background: url("@{dir}arrow-right-after.jpg")no-repeat top center;
+    background-size: cover;
+}
+#comfortable-slider .owl-nav {
+    margin-top: -20px;
+}
+#comfortable-slider .owl-dots {
+    display: none;
+}
+
+.container-slider-wrap:hover .container-close-1 {
+    display: none;
+}
+.container-slider-wrap:hover .container-open-1 {
+    display: block;
+}

@@ -1,0 +1,489 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.language {
+		display: block;
+		text-align: right;
+	}
+	.language a {
+		font-size: 24px;
+	}
+	.telephone {
+		display: block;
+		text-align: right;
+	}
+	.trapezium-1,
+	.trapezium-2 {
+		position: relative;
+	}
+	.trapezium-1 {
+		top: -10px;
+	}
+	.trapezium-2 {
+		top: 10px;
+		right: 15px;
+	}
+	.trapezium-1:after,
+	.trapezium-1:before,
+	.trapezium-2:before,
+	.trapezium-2:after {
+		display: none;
+	}	
+	.substrate-painting-1,
+	.substrate-painting-2 {
+		position: relative;
+	}	
+	.about-content-headline {
+    	padding-top: 15px;
+	}
+	.about-content {
+		max-width: 100%;
+		padding-top: 0;
+	}
+	.experience,
+	.we-manufacturers,
+	.full-construction,
+	.quality-products {
+		padding-left: 25px;
+		padding-right: 25px;
+		margin-bottom: 45px;
+	}
+	.about {
+		padding-bottom: 110px;
+	}
+	.top-form,
+	.form-two,
+	.form-three,
+	.bottom-form {
+		background: #ffbc22;
+	}
+	.top-form-wrap,
+	.form-two-wrap {
+		width: 100%;
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	.application-form h2,
+		p {
+		text-align: center;
+	}
+	.manufacture-video {
+		min-height: 441px;
+	}
+	.decision-inner {
+		width: 100%;
+		margin-bottom: 25px;
+		position: relative;
+	}
+	.decision-inner_1,
+	.decision-inner_2 {
+    	padding-left: 20px;
+	}
+	.decision-infoblock_1 {
+		margin-bottom: 0;
+	}
+	.decision-after-prompting {    	
+    	max-width: 945px;
+    	border-radius: 5px;
+	}
+	.comfortable-offise-inner {
+		padding-top: 0;
+		padding-bottom: 10px;
+		margin-bottom: 10px;
+	}
+	.comfortable-foto {
+		position: relative;
+		bottom: -5px;
+		left: 295px;
+	}
+	.ecology-header, 
+	.economy-header, 
+	.mobility-header {
+    	margin-bottom: 40px;
+    	margin-top: -160px;
+	}
+	.choose-column-left-header {
+		display: none;
+	}
+	.choose-column-left-header-two h4 {
+		display: block;
+		text-align: right;
+	}
+	.why-choose-pointer {
+		display: none;
+	}
+	.why-choose-column-left li::before,
+	.why-choose-column-right li::before {
+		width: 100%;
+	}
+	.why-choose-column-left li::after,
+	.why-choose-column-right li::after {
+		display: none;
+	}
+	.hedline-choose-column-right {
+		text-align: right;
+	}
+	.bottom-form {
+		padding-top: 70px;
+		padding-bottom: 70px;
+	}
+	.bottom-form-girl {
+		display: none;
+	}
+	.are-working-content-wrap {
+		max-width: 100%;
+	}
+	.are-working-content {		
+		padding-left: 40px;
+	}
+	.btn-are-working {
+		width: 100%;
+	}
+	.are-working-content-right p {
+		width: 100%;
+	}
+	.are-working {
+		padding-bottom: 65px;
+	}
+	.we-are-item-1,
+	.we-are-item-2 {
+		margin: 0 auto 17px;
+	}
+	.contact-details {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.project-designed {
+		text-align: center;
+	}
+	.rights-protection,
+	.project-designed {
+		margin-bottom: 25px;
+	}
+	.recomeended-slide-content {
+		max-width: 100%;
+		padding-right: 20px;
+	}
+	.slide-content-text p {
+		text-align: left;
+	}
+	.author-name h6 {
+		text-align: right;
+	}
+	.position-author p {
+		text-align: right;
+	}
+	.recomeended-slide-foto {
+		margin-top: -10px;
+		margin-left: 30%;
+	}
+	.owl-theme .owl-nav {
+		display: none;
+	}
+	.why-choose {
+		background: #fff19c;
+		padding-bottom: 25px;
+	}
+	.hedline-choose-column-right h4,
+	.coose-column-text-right p {
+    	color: #4078de;
+	}
+	.comfortable-offise-slider {
+		margin-bottom: 10px;
+	}
+	.project-slide-task p,
+	.project-slide-decision p {
+		text-align: left;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.tagline p {
+		text-align: left;
+	}
+	.call-back {
+		padding-top: 45px;
+	}
+	.about-content p {
+		text-align: left;
+	}
+	.manufacture {
+		padding-top: 180px;
+		margin-bottom: -540px;
+	}
+	.decision-inner_1, 
+	.decision-inner_2 {
+		padding-left: 0;
+	}
+	.arrow {
+		display: none;
+	}
+	.comfortable-offise-inner {
+		max-width: 100%;
+		padding-top: 75px;
+		padding-left: 0;
+		margin-bottom: 320px;
+	}
+	.comfortable-foto {
+		position: absolute;
+		bottom: 250px;
+		left: 50%;
+		margin-left: -160px;		
+	}
+	.comfortable-offise-slider {
+    	margin-bottom: 500px;
+	}
+	.ecology-header, 
+	.economy-header, 
+	.mobility-header {
+		margin-top: 0;
+	}
+	.ecology-header h4, 
+	.economy-header h4, 
+	.mobility-header h4 {
+		text-align: center;
+	}
+	.ecology-text, 
+	.economy-text, 
+	.mobility-text {
+		max-width: 100%;
+	}
+	.comfortable-offise {
+		padding-bottom: 0;
+		margin-bottom: -235px;
+	}
+	.manufacture-video {
+    	min-height: 431px;
+	}
+	.we-recomended-wrap {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.certificates-clide {
+		max-width: 215px;
+		min-height: 305px;
+	}
+	#certificates-clider .owl-dots {
+		display: none;
+	}
+	.certificates-clide-row {
+		width: 215px;
+	}
+	.certificates-clide-item {
+    	width: 215px;
+    	padding-top: 19px;
+    	padding-left: 0;
+	}
+	.certificates {
+		min-height: 835px;
+	}
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 736px) {
+	.trapezium-1 {
+		left: 100px;
+	}
+	.telephone,
+	.language {
+		margin-left: 0;
+	}
+	.recomeended-slide-foto {		
+		margin-left: 28%;
+	}
+	.decision-inner-text-left {
+		left: 0;
+	}
+	.decision-inner-text-right {
+		left: 0;
+	}	
+	.decision-inner-content-left {
+		right: 50%;
+		margin-right: -145px;
+	}
+	.decision-inner-content-right {
+		left: 50%;
+		margin-left: -145px;	
+	}
+	.manufacture-video {
+    	min-height: 388px;
+	}
+	.comfortable-offise-slider {
+    	margin-bottom: 280px;
+	}
+	.we-recomeended {
+		margin-bottom: 0;
+	}
+	#we-recomended-slider .owl-dots {
+		display: none;
+	}
+}
+
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 667px) {
+	.trapezium-1 {
+		min-height: 280px;
+    	left: 35px;
+	}
+	.trapezium-2 {
+		min-height: 280px;
+	}
+	.recomeended-slide-foto {		
+		margin-left: 26%;
+	}
+	.manufacture-video {
+    	min-height: 330px;
+	}
+	.are-working-content-right p {		
+		margin-left: 50px;
+	}
+	
+}
+/* Custom, iPhone 5 */
+@media only screen and (max-width : 568px) {
+	.trapezium-1 {
+    	left: 15px;
+	}
+	.decision-after-promting-text {
+		padding-top: 125px;
+		padding-right: 50px;
+		padding-left: 50px;
+	}
+	.recomeended-slide-foto {		
+		margin-left: 22%;
+	}
+	.manufacture-video {
+    	min-height: 276px;
+	}
+	.trapezium-1,
+    .trapezium-2 {
+    	min-height: 235px;
+    }
+	
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .language {
+    	padding-top: 0;
+    }
+    .trapezium-1,
+    .trapezium-2 {
+    	min-height: 170px;
+    }
+    .why-choose {
+    	padding-bottom: 65px;
+    }
+    .recomeended-slide-foto {		
+		margin-left: 17%;
+	}
+	.manufacture-video {
+    	min-height: 230px;
+	}
+}
+
+/* Custom, iPhone 6 Plus*/
+@media only screen and (max-width : 414px) {
+	.recomeended-slide-foto {		
+		margin-left: 11%;
+	}
+	.manufacture-video {
+    	min-height: 207px;
+	}
+	.trapezium-1, .trapezium-2 {
+    	min-height: 170px;
+	}
+	.experience, 
+	.we-manufacturers, 
+	.full-construction, 
+	.quality-products {
+		min-height: 320px;
+	}
+}
+
+/* Custom, iPhone 6 */
+@media only screen and (max-width : 375px) {
+	.recomeended-slide-foto {		
+		margin-left: 6%;
+	}
+	.manufacture-video {
+    	min-height: 178px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+	.recomeended-slide-foto {
+		min-height: 304px;		
+		margin-left: 0;
+	}
+	.are-working-content {
+		padding-left: 0;
+	}
+	.are-working-content-right p {
+		margin-left: 0;
+	}
+	.certificates-clider li {
+		margin-right: 0;
+	}
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+	.clearfix-none {
+		display: none;
+	}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

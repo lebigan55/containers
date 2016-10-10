@@ -1,0 +1,144 @@
+/*--- project  ---*/
+
+.project {
+    width: 100%;
+    min-height: 870px;
+    background: url("@{dir}project-bg.jpg")no-repeat top center;
+    background-size: cover;
+    padding-top: 75px;
+    margin-bottom: -23px;
+}
+.project-slide-headline {
+    width: 210px;
+    h5 {
+        color: @white;
+    }
+}
+.project-slide-picture-before {
+    width: 270px;
+    height: 190px;
+    border-radius: 3px;
+    margin-bottom: -87px;
+    overflow: hidden;
+    position: relative;
+    z-index: 100;
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.project-slide-text {
+    width: 500px;
+    max-width: 500px;
+    height: auto;    
+    border-radius: 3px;
+    background: rgba(7, 23, 48, 0.8);
+    padding-top: 105px;
+    padding-bottom: 55px;
+    padding-left: 30px;
+    margin-left: -30px;    
+    position: relative;    
+    z-index: 50;
+    p {
+       color: @white;
+       line-height: 1.5; 
+    }
+    span {
+        font-weight: 700;
+        color: @yellow;
+    }
+}
+.project-slide-task {
+    max-width: 365px;
+    height: auto;
+}
+.project-slide-decision {
+    max-width: 325px;
+    height: auto;
+}
+.project-slide,
+.project-slide-two {
+    display: inline-block;
+    vertical-align: top;
+}
+.project-slide {
+    max-width: 300px;
+    margin-left: 30px;
+}
+.project-slide-two {
+    max-width: 670px;
+}
+.project-slide-picture-after {
+    max-width: 670px;
+    height: 415px;
+    border-radius: 3px;
+    overflow: hidden;
+    position: relative;
+    z-index: 20;
+}
+.slide-picture-after-two-wrap {
+    padding-left: 195px;
+    margin-top: 30px;
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+    li {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 30px;
+    }
+    li:last-child {
+        margin-right: 0;
+    }
+}
+.slide-picture-after-two {
+    width: 70px;
+    height: 70px;
+    border-radius: 3px;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 100%;
+    }
+}
+.project-slide-row {
+    padding-left: 55px;
+}
+/*--- sliders  ---*/
+
+#project-clider .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 27%;
+}
+#project-clider .owl-next {
+    position: absolute;
+    right: 0;
+    top: 27%;
+}
+#project-clider .owl-dots {
+    display: none;
+}
+.owl-prev,
+.owl-next {
+    text-indent: -9999px;
+}
+#project-clider .owl-prev {
+    background: url("@{dir}arrow-left-before.jpg")no-repeat top center;
+    background-size: cover;
+    transition: all 0.35s ease;
+}
+#project-clider .owl-next {
+    background: url("@{dir}arrow-right-before.jpg")no-repeat top center;
+    background-size: cover;
+    transition: all 0.35s ease;
+}
+#project-clider .owl-prev:hover {
+    background: url("@{dir}arrow-left-after.jpg")no-repeat top center;
+    background-size: cover;
+}
+#project-clider .owl-next:hover {
+    background: url("@{dir}arrow-right-after.jpg")no-repeat top center;
+    background-size: cover;
+}

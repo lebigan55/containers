@@ -1,0 +1,146 @@
+/*--- we-recomeended  ---*/
+
+.we-recomeended {
+    width: 100%;
+    height: auto;
+    background: #fff;
+    padding-top: 63px;
+    margin-bottom: 165px;
+}
+.we-recomeended-headline {
+    margin-bottom: 85px;
+}
+.we-recomeended-headline span {
+    display: block;
+}
+.item-we-recomeended-slide {
+    width: 100%;
+    min-height: 420px;
+    background: #ffd437;
+    border-radius: 3px;
+    position: relative;
+    z-index: 900;    
+}
+.arrow img {
+    max-width: 100%;
+    height: auto;    
+}
+.arrow-left,
+.arrow-right {
+    position: absolute;
+    z-index: 100;
+}
+.arrow-left {
+    top: -55px;
+    left: 18px;
+}
+.arrow-right {
+    bottom: -55px;
+    right: 18px;
+}
+.recomeended-slide-foto {
+    max-width: 300px;    
+    min-height: 315px;
+    border-radius: 3px;    
+    box-shadow: -11.314px 11.314px 18px 0px rgba(43, 73, 121, 0.62);
+    overflow: hidden;
+    margin-top: 55px;
+    margin-left: -30px;    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+.recomeended-slide-foto,
+.recomeended-slide-content  {
+    display: inline-block;
+    vertical-align: middle;
+}
+.recomeended-slide-content {
+    max-width: 570px;
+    height: auto;
+    margin-left: 30px;    
+}
+.slide-content-headline {
+    padding-top: 60px;
+    margin-bottom: 50px;
+    h5 {
+        color: @blue;
+    }
+    span {
+        display: block;
+    }
+}
+.slide-content-text {
+    p {
+       color: @blue; 
+    }
+}
+.author-name {
+    padding-top: 15px;
+    h6 {
+    color: @blue;
+    }
+}
+.position-author {
+    p {
+        font-size: 18px;
+        color: @blue;
+    }
+}
+
+/*--- sliders  ---*/
+
+.we-recomended-wrap {
+    width: 100%;
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.owl-carousel .owl-stage-outer {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.owl-theme .owl-dots .owl-dot span {
+    width: 16px;
+    height: 16px;
+    background: #607597;
+}
+.owl-theme .owl-dots .owl-dot.active span, 
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: #ffd437;
+}
+.owl-theme .owl-nav [class*=owl-] {    
+    width: 50px;
+    height: 50px;    
+    border-radius: 3px;
+    overflow: hidden;
+    transition: all 0.35s ease;      
+}
+#we-recomended-slider .owl-prev {
+    position: absolute;
+    left: 0;
+    top: 40%;
+}
+#we-recomended-slider .owl-next {
+    position: absolute;
+    right: 0;
+    top: 40%;
+}
+#we-recomended-slider .owl-prev {
+    background: url("@{dir}arrow-left-before.jpg")no-repeat top center;
+    background-size: cover;
+    transition: all 0.35s ease;
+}
+#we-recomended-slider .owl-next {
+    background: url("@{dir}arrow-right-before.jpg")no-repeat top center;
+    background-size: cover;
+    transition: all 0.35s ease;
+}
+#we-recomended-slider .owl-prev:hover {
+    background: url("@{dir}arrow-left-after.jpg")no-repeat top center;
+    background-size: cover;
+}
+#we-recomended-slider .owl-next:hover {
+    background: url("@{dir}arrow-right-after.jpg")no-repeat top center;
+    background-size: cover;
+}
